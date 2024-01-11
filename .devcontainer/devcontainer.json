@@ -18,6 +18,7 @@
 	
 	"mounts": [
 		"source=${localWorkspaceFolder},target=/tmp/indy_ros2_ws/src/indy-ros2-a2rlab,type=bind,consistency=cached",
+		"source=${localWorkspaceFolder}/../indy-ros2,target=/tmp/indy_ros2_ws/src/indy-ros2,type=bind,consistency=cached",
 	],
 	// "workspaceMount": "source=${localWorkspaceFolder},target=/tmp/benchmark_ws/src/benchmarks,type=bind,consistency=cached", 
 	"workspaceFolder": "/tmp/indy_ros2_ws/",

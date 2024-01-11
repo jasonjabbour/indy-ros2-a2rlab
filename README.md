@@ -4,7 +4,7 @@
 
 ```sh
 
-mkdir 
+mkdir -p indy_ros2_ws/src
 git clone https://github.com/neuromeka-robotics/indy-ros2.git
 git clone https://github.com/jasonjabbour/indy-ros2-a2rlab.git
 cd indy-ros2-a2rlab
